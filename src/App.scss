@@ -1,0 +1,89 @@
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+.App{
+    input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    height: 100vh;
+    color:#A0AFA0;
+    .title{
+        background-color: #45497e;
+        width: 480px;
+        height: 95vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 3rem;
+        border-radius: 20px;
+        font-weight: bolder;
+   .converter{
+       color:#007EA3;
+   }
+   .subtitle{
+    color:#007EA3;
+    padding-top: 30px;
+    font-size: 2rem;
+   }
+   .submit-place{
+display: flex;
+flex-direction: column;
+   }
+   .holder{
+       border:#31B3DB 3px solid;
+       color:#007EA3;
+       font-size: 2rem;
+       outline: none;
+       background-color: transparent;
+   }
+   button{
+ margin-top: 10px;
+ padding:15px 0px;
+ background-color: transparent;
+ border:#31B3DB 3px solid;
+ cursor: pointer;
+ outline: none;
+ font-size: 1.5rem;
+ font-weight: bolder;
+ color:#31B3DB;
+ transition:ease 0.25s;
+ &:hover{
+    background-color: #31B3DB;
+    color:#FBEAFF;
+ }
+}
+ .total{
+     margin-top: 5px;
+    background-color: #31B3DB;
+    color:#FBEAFF;
+    width:83%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .Quarters{
+        background-color: #007EA3;
+        width: 100%;
+        text-align: center;
+    }
+    .Nickels{
+        background-color: #007EA3;
+        width: 100%;
+        text-align: center;
+    }
+ }
+   
+    }
+    
+}
